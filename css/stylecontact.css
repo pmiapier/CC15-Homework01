@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Roboto;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+nav {
+  padding: 30px;
+  margin-bottom: 30px;
+  /* text-decoration: none; */
+  /* border: solid lime; */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5rem;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  /* margin-bottom: 50px; */
+  /* width: max-content; */
+  /* color: black; */
+}
+
+a {
+  /* border: solid salmon; */
+  text-decoration: none;
+  color: rgb(83, 81, 81);
+  font-weight: 300;
+  font-size: 16px;
+}
+
+a:hover {
+  color: rgb(244, 192, 49);
+  font-weight: bolder;
+}
+
+h6 {
+  font-family: Nothing You Could Do;
+  color: rgb(244, 192, 49);
+  font-size: 16px;
+}
+
+.containerbg {
+  background-color: rgba(228, 228, 228, 0.646);
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+textarea {
+  font-size: 16px;
+  font-family: Nothing You Could Do;
+  border-radius: 5px;
+  min-width: 500px;
+  color: grey;
+  border: 1px solid white;
+}
+
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: acre;
+  font-size: 20px;
+  display: inline-flex;
+  position: relative;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: rgb(59, 58, 58);
+  color: white;
+  /* border-color: rgb(244, 192, 49); */
+  border-radius: 5px;
+  font-family: Roboto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: rgb(244, 192, 49);
+  color: black;
+}
+
+::placeholder {
+  font-family: Nothing You Could Do;
+  font-size: 16px;
+}
+
+/* lable {
+  style="letter-spacing: 3px"
+} */

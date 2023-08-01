@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Roboto;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+nav {
+  padding: 30px;
+  margin-bottom: 30px;
+  /* text-decoration: none; */
+  /* border: solid lime; */
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5rem;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  /* margin-bottom: 50px; */
+
+  /* width: max-content; */
+  /* color: black; */
+}
+
+a {
+  /* border: solid salmon; */
+  text-decoration: none;
+  color: rgb(83, 81, 81);
+  font-weight: 300;
+  font-size: 16px;
+}
+
+a:hover {
+  color: rgb(244, 192, 49);
+  font-weight: bolder;
+}
+
+h6 {
+  font-family: Nothing You Could Do;
+  color: rgb(244, 192, 49);
+  font-size: 16px;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  border-color: rgb(255, 255, 255);
+}
+
+table {
+  /* min-width: 1000px; */
+  width: 80%;
+  margin: auto;
+}
+
+tr {
+  height: 60px;
+}
+th {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  /* color: rgb(244, 192, 49); */
+}
+
+td {
+  padding-left: 10px;
+  height: 40px;
+  font-weight: 200;
+}
+
+.background-fill-container {
+  background-color: rgba(228, 228, 228, 0.646);
+  height: 700px;
+  border-radius: 20px;
+  text-align: center;
+  display: flexbox;
+  justify-content: center;
+  /* align-items: center; */
+}
